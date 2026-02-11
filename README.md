@@ -1,11 +1,13 @@
 
 
-DECENTRALIZED CERTIFICATE MANAGEMENT SYSTEM (DCMS)
-Blockchain-Based Certificate Issuance & Verification using Ethereum
+**DECENTRALIZED CERTIFICATE MANAGEMENT SYSTEM (DCMS)**
+
+
+**Blockchain-Based Certificate Issuance & Verification using Ethereum**
 
 ---
 
-OVERVIEW
+**OVERVIEW**
 
 The Decentralized Certificate Management System (DCMS) is a blockchain-based platform built on the Ethereum network that enables secure issuance, storage, and verification of digital certificates.
 
@@ -20,9 +22,8 @@ The project leverages:
 * React / Vite Frontend
 
 
----
 
-KEY FEATURES
+**KEY FEATURES**
 
 * Tamper-proof certificate issuance
 * Blockchain-generated unique certificate ID
@@ -32,9 +33,8 @@ KEY FEATURES
 * Smart contract-based validation
 * IPFS integration for secure document storage (optional)
 
----
 
-SYSTEM ARCHITECTURE
+**SYSTEM ARCHITECTURE**
 
 1. Admin/Issuer issues a certificate.
 2. Certificate metadata is stored on blockchain via smart contract.
@@ -42,9 +42,8 @@ SYSTEM ARCHITECTURE
 4. A unique blockchain-based Certificate ID is generated.
 5. Anyone can verify certificate authenticity using the Certificate ID.
 
----
 
-TECH STACK
+**TECH STACK**
 
 Frontend: React / Vite
 Blockchain: Ethereum
@@ -53,51 +52,49 @@ Wallet: MetaMask
 Storage: IPFS 
 Web3 Integration: Ethers.js / Web3.js
 
----
 
-INSTALLATION & SETUP
+**INSTALLATION & SETUP**
 
 Follow the steps below to run the project locally:
 
 1. Clone the Repository
 
-git clone https://github.com/SudeepRedddy/Decentralised-Certificate-Management-System.git
+    git clone https://github.com/SudeepRedddy/Decentralised-Certificate-Management-System.git
 
 2. Navigate to Project Directory
 
-cd Decentralised-Certificate-Management-System
+    cd Decentralised-Certificate-Management-System
 
 3. Install Dependencies
 
-npm install
+    npm install
 
 4. Run the Development Server
 
-npm run dev
+    npm run dev
 
-SERVER STATUS
+    SERVER STATUS
 
-After running the above command:
-
-* The development server will start.
-* Open your browser and navigate to:
-
-[http://localhost:5173](http://localhost:5173)
+    After running the above command:
+    
+    * The development server will start.
+    * Open your browser and navigate to:
+    
+    [http://localhost:5173](http://localhost:5173)
 
 (Note: Port may vary depending on your Vite configuration.)
 
 ---
 
-SMART CONTRACT DEPLOYMENT 
+**SMART CONTRACT DEPLOYMENT** 
 
 1. Compile the Solidity smart contract.
 2. Deploy using Remix IDE.
 3. Update the deployed contract address in frontend configuration.
 4. Connect MetaMask to testnet.
 
----
 
-CERTIFICATE WORKFLOW
+**CERTIFICATE WORKFLOW**
 
 Issuing a Certificate:
 
@@ -105,15 +102,14 @@ Issuing a Certificate:
 * Smart contract stores certificate hash.
 * Blockchain generates Certificate ID.
 
-Verifying a Certificate:
+**Verifying a Certificate:**
 
 * Enter Certificate ID.
 * Smart contract validates and returns certificate metadata.
 * Displays authenticity status.
 
----
 
-EXAMPLE USE CASES
+**EXAMPLE USE CASES**
 
 * University degree verification
 * Internship certificate validation
@@ -121,9 +117,8 @@ EXAMPLE USE CASES
 * Professional certifications
 * Skill-based blockchain credentials
 
----
 
-SECURITY BENEFITS
+**SECURITY BENEFITS**
 
 * Immutable record storage
 * No centralized database tampering
