@@ -2,7 +2,6 @@
 
 **DECENTRALIZED CERTIFICATE MANAGEMENT SYSTEM (DCMS)**
 
-
 **Blockchain-Based Certificate Issuance & Verification using Ethereum**
 
 ---
